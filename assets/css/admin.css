@@ -1,0 +1,15 @@
+.iconized-list-wrapper .preview,
+.iconized-list-wrapper .dropdown{
+	float: left;
+}
+.iconized-list-wrapper .preview{
+	margin-left: 20px;
+}
+.iconized-list-wrapper:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.iconized-list-item.hidden{
+	display: none;
+}

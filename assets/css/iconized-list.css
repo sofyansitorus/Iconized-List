@@ -1,0 +1,32 @@
+.iconized-list ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.iconized-list ul li:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.iconized-list ul > li > span{
+	display: block;
+	float: left;
+}
+.iconized-list ul li span.col-icon-{
+	width: 18px;
+}
+.iconized-list ul li span.col-icon-fa-lg{
+	width: 24px;
+}
+.iconized-list ul li span.col-icon-fa-2x{
+	width: 34px;
+}
+.iconized-list ul li span.col-icon-fa-3x{
+	width: 52px;
+}
+.iconized-list ul li span.col-icon-fa-4x{
+	width: 62px;
+}
+.iconized-list ul li span.col-icon-fa-5x{
+	width: 80px;
+}
